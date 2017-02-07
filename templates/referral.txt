@@ -1,0 +1,15 @@
+You've been invited to try Storj.io!
+====================================
+
+{{senderEmail}} invited you to try out Storj.io.
+
+Sign up at the link below to redeem your $10 credit.
+
+{{url}}
+
+Let us know what you think!
+
+---
+
+Cheers,
+The Storj Team
