@@ -161,26 +161,24 @@
                                     <!-- COPY -->
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
-                                            <td align="center" style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #333333; padding-top: 30px;" class="padding-copy">You've been invited!</td>
+                                            <td align="center" style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #333333; padding-top: 30px;" class="padding-copy">You've been invited to try Storj!</td>
                                         </tr>
                                         <tr>
                                             <td align="center" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #777777;" class="padding-copy">
                                                 <p>
-                                                <!-- Thanks for creating a Storj account. To complete your registration, please confirm your email address by clicking the button below or using this
-                                                  {{#if redirect}}
-                                                    <a href="{{url}}/activations/{{token}}?redirect={{redirect}}">link</a>.
-                                                  {{else}}
-                                                    <a href="{{url}}/activations/{{token}}">link</a>.
-                                                  {{/if}} -->
+                                                    <p>
+                                                        {{senderEmail}} sent you an invite,
+                                                    </p>
 
-                                                    You've been invited to try Storj.io!
-                                                    {{senderEmail}} sent you an invite,
+                                                    <p>
+                                                        Sign up at the link below to receive your $10 free credit.
+                                                    </p>
 
-                                                    Sign up at the link below to receive your $10 free credit.
-
-                                                    {{#if url}}
-                                                        <a href="{{url}}">{{url}}</a>
-                                                    {{/if}}
+                                                    <p>
+                                                        {{#if url}}
+                                                            <a href="{{url}}">{{url}}</a>
+                                                        {{/if}}
+                                                    </p>
 
                                                     ---
                                                     Cheers!
@@ -200,12 +198,7 @@
                                                 <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
                                                     <tr>
                                                         <td align="center">
-                                                        {{#if redirect}}
-                                                            <a href="{{url}}/activations/{{token}}?redirect={{redirect}}" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; background-color: #2683FF; border-top: 15px solid #2683FF; border-bottom: 15px solid #2683FF; border-left: 25px solid #2683FF; border-right: 25px solid #2683FF; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Confirm Email Address</a>
-                                                        {{else}}
-                                                            <a href="{{url}}/activations/{{token}}" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; background-color: #2683FF; border-top: 15px solid #2683FF; border-bottom: 15px solid #2683FF; border-left: 25px solid #2683FF; border-right: 25px solid #2683FF; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Confirm Email Address</a>
-                                                        {{/if}}
-
+                                                            <a href="{{url}}" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; background-color: #2683FF; border-top: 15px solid #2683FF; border-bottom: 15px solid #2683FF; border-left: 25px solid #2683FF; border-right: 25px solid #2683FF; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Claim Storage</a>
                                                         </td>
                                                     </tr>
                                                 </table>
