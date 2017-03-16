@@ -1,13 +1,13 @@
 You've been invited to try Storj.io!
 ====================================
 
-Great news! Your friend {{senderEmail}} just sent you 50GB of free storage and 50GB of free bandwidth on Storj.
+Great news! Your friend {{senderEmail}} just sent you a $10 credit to use on Storj!
 
-Storj is a decentralized cloud storage platform. It’s a blazing fast, highly secure and cost effective alternative to regular providers, with a foundation in P2P technology and the blockchain.
+Storj is a decentralized cloud storage platform. It’s a blazingly fast, highly secure, and cost effective alternative to regular providers.
 
 Claim your free credits today and experience the cloud in a new way.
 
-Sign up with the link below and get 50GB of storage and 50GB of bandwidth per month (for the next three months)-- on us!
+Sign up with the link below to unlock your $10 credit!
 
 {{url}}
 
