@@ -168,9 +168,9 @@
                                                 <p>
                                                 Thanks for creating a Storj account. To complete your registration, please confirm your email address by clicking the button below or using this
                                                   {{#if redirect}}
-                                                    <a href="{{url}}/activations/{{token}}?redirect={{redirect}}">link</a>.
+                                                    <a href="{{url}}/activations/{{token}}?redirect={{redirect}}" mc:disable-tracking>link</a>.
                                                   {{else}}
-                                                    <a href="{{url}}/activations/{{token}}">link</a>.
+                                                    <a href="{{url}}/activations/{{token}}" mc:disable-tracking>link</a>.
                                                   {{/if}}
                                                 </p>
                                             </td>
@@ -188,11 +188,11 @@
                                                     <tr>
                                                         <td align="center">
                                                         {{#if redirect}}
-                                                            <a href="{{url}}/activations/{{token}}?redirect={{redirect}}" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; background-color: #2683FF; border-top: 15px solid #2683FF; border-bottom: 15px solid #2683FF; border-left: 25px solid #2683FF; border-right: 25px solid #2683FF; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Confirm Email Address</a>
+                                                            <a href="{{url}}/activations/{{token}}?redirect={{redirect}}" mc:disable-tracking target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; background-color: #2683FF; border-top: 15px solid #2683FF; border-bottom: 15px solid #2683FF; border-left: 25px solid #2683FF; border-right: 25px solid #2683FF; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Confirm Email Address</a>
                                                         {{else}}
-                                                            <a href="{{url}}/activations/{{token}}" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; background-color: #2683FF; border-top: 15px solid #2683FF; border-bottom: 15px solid #2683FF; border-left: 25px solid #2683FF; border-right: 25px solid #2683FF; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Confirm Email Address</a>
+                                                            <a href="{{url}}/activations/{{token}}" mc:disable-tracking target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #ffffff; text-decoration: none; background-color: #2683FF; border-top: 15px solid #2683FF; border-bottom: 15px solid #2683FF; border-left: 25px solid #2683FF; border-right: 25px solid #2683FF; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Confirm Email Address</a>
                                                         {{/if}}
-                                                        
+
                                                         </td>
                                                     </tr>
                                                 </table>
