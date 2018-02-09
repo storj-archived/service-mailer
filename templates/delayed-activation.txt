@@ -1,0 +1,16 @@
+Thanks for signing up for the Storj platform
+============================================
+
+In order to better support our existing users, account activations are currently on hold while we restructure and improve our current network.
+
+Since you signed up during this period, your account will be created but you won't receive an activation email until our new network is ready. When you receive your activation email, you'll be able to begin using the network like normal.
+
+{{#if url}}
+If you want to be put into a beta testing group for the new network, you can sign up by copying and pasting this URL into your browser - {{url}}
+{{/if}}
+
+We will notify you of any major changes to the network status in the meantime. Thank you for your patience.
+---
+
+Cheers,
+The Storj Team
