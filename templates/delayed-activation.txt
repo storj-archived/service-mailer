@@ -1,6 +1,7 @@
 You're on the list!
 ===================
-Thanks for joining the Storj waitlist! Watch for an email notifying you when we begin activating new accounts. Once your registration is finalized, you will receive one year of free service — up to 25GB of storage and bandwidth every month. In the meantime, follow us on Twitter at @storjproject or join our community chat for the latest updates from the Storj Labs team.
+Thanks for joining the Storj waitlist! Watch for an email notifying you when we begin activating new accounts. Once your registration is finalized, you will receive one year of free service — up to 25GB of storage and bandwidth every month.
+In the meantime, follow us on Twitter at <a href="https://twitter.com/storjproject" target="_blank">@storjproject</a> or join <a href="https://storj.io/community.html" target="_blank">our community chat</a> for the latest updates from the Storj Labs team.
 
 {{#if url}}
 If you want to be put into a beta testing group for the new network, you can sign up by copying and pasting this URL into your browser - {{url}}
