@@ -1,6 +1,6 @@
 {
   "name": "storj-service-mailer",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "email dispatcher and templates for storj services",
   "main": "index.js",
   "scripts": {
